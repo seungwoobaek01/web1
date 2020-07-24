@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 40px;
+            border: black 1px solid;
+            background-color: black;
+        }
+        NAV{
+            border: red 1px solid;
+            background-color: red;
+        }
+        section{
+            width: 950px;
+            float: left;
+            border: blue 1px solid;
+            background-color: blue;
+        }
+        aside{
+            width: 950px;
+            float: right;
+            border: green 1px solid;
+            background-color: green;
+        }
+        footer{
+            border: pink 1px solid;
+            background-color: pink;
+        }
+        .clear{
+            clear: both;
+        }
+        @media(max-width:800px) {
+        body{
+          display:none;
+        }
+    </style>
+</head>
+<body>
+    <header>헤더</header>
+    <NAV>내비게이션</NAV>
+    <section>섹션</section>
+    <aside>어사이드</aside>
+    <div class = "clear"></div>
+    <footer>푸터</footer>
+</body>
+</html>
